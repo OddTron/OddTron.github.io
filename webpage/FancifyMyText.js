@@ -3,7 +3,8 @@ function sendAlert(){
 }
 
 function bigger(){
-    document.getElementById('Text Area').style.fontSize = '2em'
+    const text = document.getElementById('Text Area')
+    text.style.fontSize = '2em'
 }
 
 function fancy(){
