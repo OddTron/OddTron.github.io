@@ -24,7 +24,7 @@ function boring(){
 }
 
 function moo(){
-  const text = document.getElementById('txtArea')
+  const text = document.getElementById('Text Area')
   text.style.textTransform = 'uppercase'
   const sent = text.value.split('.')
   for (let i = 0; i < sent.length - 1; i++) {
