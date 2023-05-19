@@ -26,9 +26,9 @@ function boring(){
 function moo(){
   const text = document.getElementById('txtArea')
   text.style.textTransform = 'uppercase'
-  const sent = t.value.split('.')
+  const sent = text.value.split('.')
   for (let i = 0; i < sent.length - 1; i++) {
     sent[i] = sent[i] + '-Moo'
   }
-  t.value = sent.join('.')
+  text.value = sent.join('.')
 }
