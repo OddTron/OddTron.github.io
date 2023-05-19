@@ -5,3 +5,11 @@ function sendAlert(){
 function bigger(){
     document.getElementById('Text Area').style.fontSize = '2em'
 }
+
+function fancy(){
+
+}
+
+function boring(){
+
+}
